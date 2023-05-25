@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <section id="about">
+      <nav>
+        <a href="index.html"
+          ><div class="logo" style="font-size: 25px">Flash</div></a
+        >
+        <ul class="nav-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="left">
+        <div class="Iam" style="display: flex">
+          <div class="static-txt">I'm</div>
+          <ul class="dynamic-txts">
+            <li><span>Borislav Dimitrov</span></li>
+            <li><span>Web Developer</span></li>
+            <li><span>Ethical Hacker</span></li>
+            <li><span>Penetration Tester</span></li>
+          </ul>
+        </div>
+        <span class="purpose">
+          You can reach me out if you need assistance for building websites for
+          you or your business.
+        </span>
+      </div>
+      <img src="images/user.png" alt="user-photo" height="100%" />
+    </section>
+    <section id="projects">
+      <div class="proj eurocar">
+        <a href="https://flashsn0w.github.io/eurocar">
+          <img src="images/eurocar.png" alt="eurocar-photo" width="100%" />
+          <p>EuroCar</p>
+        </a>
+      </div>
+      <div class="proj kali">
+        <a href="https://flashsn0w.github.io/kali">
+          <img src="images/kali.png" alt="kali-image" />
+          <p>Kali Linux</p>
+        </a>
+      </div>
+      <div class="proj instagram">
+        <a href="https://flashsn0w.github.io/instagram">
+          <img src="images/instagram.png" alt="instagram-photo" />
+          <p>Instagram Login</p>
+        </a>
+      </div>
+    </section>
+    <section id="contacts">
+      <p>Contact me</p>
+      <form action="#contacts">
+        <!-- <label for="name">Име и Фамилия</label> -->
+        <input type="text" class="inputBox" placeholder="Name and Surname"/>
+        <!-- <label for="email">Имейл</label> -->
+        <input type="email" class="inputBox" placeholder="Email"/>
+        <!-- <label for="phone">Тел. номер</label> -->
+        <input type="number" class="inputBox" placeholder="Phone number"/>
+        <button class="submit" action="submit">Get in touch</button>
+      </form>
+    </section>
+  </body>
+</html>
